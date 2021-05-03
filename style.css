@@ -1,9 +1,83 @@
-h1 {
-    color:cornflowerblue; font-size: 20px }
+body {
+  background-color:powderblue;
+color: black;
+}
+h4 {
+  color:black;
+}
 
-h4{color: crimson;font-weight: 100;font-weight: bold; }
-label{color: crimson;font-weight: 100;font-weight: bold; }
-button{background-color: black;color: blanchedalmond ;font-size: 40px;}
-fieldset
-{border-color:yellowgreen;}
-input{border-color:yellowgreen}
+h2 {
+  color:black;
+}
+
+div{ 
+  text-align: center;
+  position: static;
+  top:0;
+  background-color:lightseagreen;
+  z-index: 1;}
+div img{
+  
+  max-width:200px;
+  border-radius:50%;
+  text-align: center;
+}
+div nav{
+  text-align: center;
+  display:inline;
+}
+.paragraph2{
+  text-align: center;
+  position: static;
+  top: 0;
+  background-color:lightseagreen;
+  z-index: 1;}
+}
+.paragraph2 img{
+  float: left;
+width: 30px;
+max-width: 200px;
+border-radius: 10px;
+display: inline;
+}
+nav.paragraph3{
+  text-align: center;
+  position: static;
+  top:0;
+  background-color:lightseagreen;
+  z-index: 1;}
+}
+img{
+float: left;
+width: 30px;
+max-width: 200px;
+border-radius: 10px;
+display: inline;
+}
+ header{
+   text-align: center;
+ }
+
+ .flex-container {
+   display: flex;
+   background-color:powderblue;
+ }
+ 
+ .flex-container > div {
+  background-color:white;
+   margin: 5px;
+   padding: 10px;
+   font-size: 15px;
+ }
+.table{
+float: left;
+  background-color:white;
+  margin: 200px;
+  padding: 100px;
+  font-size: 150px;
+}
+button{
+  position: static;
+  top:0;
+  z-index: 1;}
+}
